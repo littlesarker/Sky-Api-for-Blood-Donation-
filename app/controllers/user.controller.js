@@ -20,11 +20,12 @@ exports.moderatorBoard = (req, res) => {
 exports.allUsers = (req, res) => {
   // return all the users from sequelize and return only the username and blood_group
   User.findAll({
-    attributes: ['username', 'blood_group']
+    attributes: ['username', 'blood_group', 'mobile']
   })
     .then(users => {
       res.status(200).send({ users });
     })
+   
     .catch(err => {
       res.status(500).send({ message: err.message });
     });
