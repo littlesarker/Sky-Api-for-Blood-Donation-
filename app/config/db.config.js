@@ -1,5 +1,5 @@
 module.exports = {
-  HOST: "https://idonor.onrender.com/",
+  HOST: "localhost",
   USER: "postgres",
   PASSWORD: "postgres",
   DB: "testdb",
