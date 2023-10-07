@@ -1,5 +1,5 @@
 module.exports = {
-  HOST: "postgres://testdb_7d2g_user:JE276G5YHxd6ecRQxVnJP8AVAold8W9p@dpg-ckf81aenpffc73borij0-a/testdb_7d2g",
+  HOST: "postgres://testdb_7d2g_user:JE276G5YHxd6ecRQxVnJP8AVAold8W9p@dpg-ckf81aenpffc73borij0-a.oregon-postgres.render.com/testdb_7d2g",
   
   dialect: "postgres",
   pool: {
